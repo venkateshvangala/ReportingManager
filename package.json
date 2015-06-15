@@ -1,0 +1,17 @@
+{
+  "name": "reporting-manager",
+  "version": "0.1.0",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  },
+  "description": "This is your new Play application",
+  "main": "Gruntfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Venkatesh Kumar",
+  "license": "ISC"
+}

@@ -1,0 +1,15 @@
+2015-06-12 18:39:09,159 - [INFO] - from play in pool-5-thread-3 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-06-12 18:39:13,999 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://127.0.0.1:3306/ReportManager
+
+2015-06-12 18:39:14,401 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
+2015-06-12 18:39:14,706 - [INFO] - from application in play-akka.actor.default-dispatcher-3 
+user email id.....9642648488
+
+2015-06-12 18:39:17,340 - [INFO] - from application in play-akka.actor.default-dispatcher-4 
+user email id.....9642648488
+
