@@ -9,8 +9,8 @@ import views.html.main
 object Application extends Controller {
 
   def index = Action {
-    Logger.info("user email id....." + UserService.findByEmail("venkatesh.vangala@imaginea.com").mobile);
-    Ok(main.render())
+    Logger.info("Application is loaded...." + UserService.all().length);
+    Logger.info("find user by email...." + UserService.findByEmail("venkatesh.vangala@imaginea.com").displayName); 
+    Ok(main.render());
   }
-
 }
