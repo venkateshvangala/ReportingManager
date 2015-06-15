@@ -29,7 +29,7 @@
 				<div class="clear-fix"><br/></div>
 				
 				<div class="row">
-					<form action="/signup" method="post" autocomplete="on" >
+					<form action="/signIn" method="post" autocomplete="on" >
 						<div class="span_12">
 							<label>User Name</label>
 							<input type="text" name="username" placeholder="Enter User Name" value=""/>
@@ -39,17 +39,22 @@
 							<label>Password</label>
 							<input type="password" name="password" placeholder="Enter Password" value=""/>
 						</div>
-						<div class="clear-fix"><br/></div>
-						<div class="span_12">
-							<button type="submit" class="btn btn-link">Forgot Password?</button>
+						<div class="clear-fix"><hr/></div>
+						<div class="row">
+							
+							<span>
+								<button type="submit" class="btn btn-success pull-right">SignIn</button>
+							</span>
+							<span>
+								<a href="javascript:void(0);" class="btn btn-link pull-right">Forgot Password?</a>
+							</span>
 						</div>
+						
 					</form>
 					<div class="clear-fix"><br/></div>
 				</div>
 				
-				<div class="row btn-container">
-					<button type="button" class="btn btn-success pull-right">Sign In</button>
-				</div>
+				
 				<div class="clear-fix"></div>
 			</div>
 		</div>

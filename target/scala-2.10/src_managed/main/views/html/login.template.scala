@@ -50,7 +50,7 @@ Seq[Any](format.raw/*1.1*/("""<!doctype html>
 				<div class="clear-fix"><br/></div>
 				
 				<div class="row">
-					<form action="/signup" method="post" autocomplete="on" >
+					<form action="/signIn" method="post" autocomplete="on" >
 						<div class="span_12">
 							<label>User Name</label>
 							<input type="text" name="username" placeholder="Enter User Name" value=""/>
@@ -60,17 +60,22 @@ Seq[Any](format.raw/*1.1*/("""<!doctype html>
 							<label>Password</label>
 							<input type="password" name="password" placeholder="Enter Password" value=""/>
 						</div>
-						<div class="clear-fix"><br/></div>
-						<div class="span_12">
-							<button type="submit" class="btn btn-link">Forgot Password?</button>
+						<div class="clear-fix"><hr/></div>
+						<div class="row">
+							
+							<span>
+								<button type="submit" class="btn btn-success pull-right">SignIn</button>
+							</span>
+							<span>
+								<a href="javascript" class="btn btn-link pull-right">Forgot Password?</a>
+							</span>
 						</div>
+						
 					</form>
 					<div class="clear-fix"><br/></div>
 				</div>
 				
-				<div class="row btn-container">
-					<button type="button" class="btn btn-success pull-right">Sign In</button>
-				</div>
+				
 				<div class="clear-fix"></div>
 			</div>
 		</div>
@@ -88,9 +93,9 @@ Seq[Any](format.raw/*1.1*/("""<!doctype html>
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Jun 15 18:37:37 IST 2015
+                    DATE: Mon Jun 15 19:46:29 IST 2015
                     SOURCE: /home/venkateshv/projects/ReportingManager/app/views/login.scala.html
-                    HASH: 545ede15dbaf1567a8a88f701dcc062b15b6b2f3
+                    HASH: d7340ec1ade4c5967bf6f34eeca7301527f12727
                     MATRIX: 637->0|1435->762|1450->768|1509->805|1603->863|1618->869|1676->905|1772->965|1787->971|1843->1005
                     LINES: 22->1|34->13|34->13|34->13|36->15|36->15|36->15|37->16|37->16|37->16
                     -- GENERATED --
