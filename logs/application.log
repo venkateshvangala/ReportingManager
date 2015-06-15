@@ -1,0 +1,9 @@
+2015-06-15 18:38:07,616 - [INFO] - from play in pool-4-thread-1 
+Listening for HTTP on /0:0:0:0:0:0:0:0:9000
+
+2015-06-15 18:38:11,046 - [INFO] - from play in play-internal-execution-context-1 
+database [default] connected at jdbc:mysql://127.0.0.1:3306/ReportManager
+
+2015-06-15 18:38:11,352 - [INFO] - from play in play-internal-execution-context-1 
+Application started (Dev)
+
