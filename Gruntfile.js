@@ -12,7 +12,7 @@ module.exports = function(grunt){
 					ignore: ['node_modules', 'README.md',]
 				}
 			},
-			src: ".",
+			src: "build/**/*",
 			dist: ""
 		},
 		
