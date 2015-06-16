@@ -1,11 +1,11 @@
 package controllers
 
-import play.api._
-import play.api.mvc._
-import models.data.User
 import models.Services.UserService
-import views.html.main
+import play.api.Logger
+import play.api.mvc.Action
+import play.api.mvc.Controller
 import views.html.login
+import views.html.main
 
 object Application extends Controller {
 

@@ -4,7 +4,7 @@
 		module="reportingmanager_2.10"
 		revision="1.0-SNAPSHOT"
 		status="integration"
-		publication="20150615193643"
+		publication="20150616154631"
 	>
 		<description>
 		ReportingManager

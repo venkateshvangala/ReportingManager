@@ -49,7 +49,7 @@ Seq[Any](format.raw/*1.1*/("""<!DOCTYPE html>
 }
                 /*
                     -- GENERATED --
-                    DATE: Mon Jun 15 19:36:45 IST 2015
+                    DATE: Tue Jun 16 15:46:33 IST 2015
                     SOURCE: /home/venkateshv/projects/ReportingManager/app/views/main.scala.html
                     HASH: 097234f40ea95b1f42a2d2c0d7b02626b28d5d3f
                     MATRIX: 636->0|1236->564|1251->570|1310->607|1398->659|1413->665|1469->699|1536->730|1551->736|1612->775|1656->783|1671->789|1729->824
